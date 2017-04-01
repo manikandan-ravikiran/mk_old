@@ -1,0 +1,246 @@
+html 
+{
+overflow-y:scroll;
+}
+body
+{
+background:white;
+text-align:center;
+font-family:'Georgia', serif;
+margin:auto;
+position:relative;
+line-height:113%;
+/*letter-spacing:0.1px;*/
+}
+
+div.onepub
+{
+border-left:solid 2px #111177;
+padding-left:7px;
+width:100%;
+}
+
+div.yearhead 
+{
+border-bottom:solid 1px gray;
+font-size:110%;
+font-weight:bold;
+color:#111177;
+}
+
+div.name
+{
+font-size:300%;
+text-align:center;
+letter-spacing:10px;
+}
+
+div.profile
+{
+background:white;
+display:inline-block;
+text-align:left;
+margin:0px 0px;
+padding:0px 0px;
+width:60%;
+min-width:800px;
+max-width:1200px;
+font-size:90%;
+}
+
+div.scholar
+{
+margin-left:-100px;
+margin-top:15px;
+}
+
+div.profile h3 
+{
+font-variant:small-caps;
+font-size:150%;
+letter-spacing:1px;
+}
+
+div.profile h4
+{
+font-variant:small-caps;
+font-size:140%;
+letter-spacing:1px;
+}
+
+div.teach h5
+{
+font-variant:small-caps;
+font-size:120%;
+letter-spacing:1px;
+}
+
+div.profilemenu
+{
+position:fixed;
+z-index:10;
+margin:25px 0px;
+padding:10px;
+width:6%;
+background-color:#f9f9f9;
+border:1px dashed black;
+min-width:90px;
+max-width:100px;
+}
+
+
+div.profiletext
+{
+position:relative;
+display:inline-block;
+z-index:11;
+background-color:white;
+margin:0px 14%;
+padding:30px 20px;
+width:85%;
+}
+
+div.profile a {
+color:blue;
+text-decoration:none;
+}
+
+div.profile a:hover { 
+/*background-color:#dddddd;*/
+background-color:blue;
+color:white;
+padding:0px;
+}
+
+div.profilename
+{
+z-index:11;
+font-size:200%;
+margin-bottom:10px;
+font-weight:bold;
+font-variant:small-caps;
+background-color:white;
+letter-spacing:1px;
+}
+
+div.headtext
+{
+z-index:11;
+position:relative;
+right:0px;
+top:0px;
+margin-top:0px;
+margin-left:115px;
+/*margin-left:0px;*/
+margin-bottom:25px;
+padding:0px;
+height:80px;
+border:none;
+display:inline-block;
+}
+
+img.iitk_vis
+{
+z-index:11;
+position:absolute;
+right:0px;
+top:0px;
+margin-top:30px;
+margin-right:20px;
+/*margin-right:210px;*/
+/*margin-left:10px;*/
+padding:0px;
+height:62px;
+border:none;
+display:inline-block;
+}
+
+.iitk_vis_txt
+{
+z-index:11;
+position:absolute;
+right:75px;
+top:92px;
+margin-top:5px;
+padding:0px;
+border:none;
+width:200px;
+display:inline-block;
+}
+
+img.profileimg
+{
+z-index:11;
+position:absolute;
+left:0px;
+top:0px;
+margin:20px 20px;
+height:110px;
+border:1px solid black;
+display:inline-block;
+}
+
+div.profilehead
+{
+z-index:11;
+margin-top:20px;
+background-color:white;
+margin-bottom:10px;
+font-weight:bold;
+font-size:150%;
+font-variant:small-caps;
+}
+
+div.boxed
+{
+background-color:#f9f9f9;
+text-align:left;
+margin:10px auto;
+padding:10px 10px;
+width:97%;
+font-size:95%;
+border:1px dashed gray
+}
+
+li 
+{
+    margin-bottom:8px;
+}
+
+div.teach table{
+width:90%;
+}
+
+div.teach tr, td, th {
+border:1px solid #999;
+padding:5px;
+}
+
+div.teach th {
+font-size:105%;
+font-weight:bold;
+}
+
+div.teach tr:nth-child(even) {
+background:#EEEEF5;
+}
+
+#more-button{border-style:none;background:none;font:100% Georgia;color:blue;margin:2px;padding:0;}
+
+#more-button:hover{
+background-color:blue;
+color:white;
+padding:0px;
+}
+
+#grow input:checked{color:red;}
+
+#grow {
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    height: 0;
+    overflow: hidden;
+}
